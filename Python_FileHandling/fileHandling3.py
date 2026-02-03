@@ -1,0 +1,5 @@
+f = open("sample.jpeg", "rb")
+print(f.read())
+print()
+print("This is the file content")
+f.close()

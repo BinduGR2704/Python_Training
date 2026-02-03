@@ -1,0 +1,6 @@
+f = open("abstraction.py", "r")
+content = f.read(10)
+print(content)
+print()
+f.close()
+print("File closed")
